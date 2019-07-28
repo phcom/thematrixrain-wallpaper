@@ -99,7 +99,7 @@
 				"order" : 211,
 				"text" : "ui_character_fontsize",
 				"type" : "slider",
-				"value" : 14
+				"value" : 10
 			},
 			"character_heading" : 
 			{
@@ -113,21 +113,21 @@
 				"order" : 225,
 				"text" : "ui_character_textprefs_cyrillic",
 				"type" : "bool",
-				"value" : true
+				"value" : false
 			},
 			"character_textprefs_letterslowercase" : 
 			{
 				"order" : 221,
 				"text" : "ui_character_textprefs_letterslowercase",
 				"type" : "bool",
-				"value" : true
+				"value" : false
 			},
 			"character_textprefs_lettersuppercase" : 
 			{
 				"order" : 222,
 				"text" : "ui_character_textprefs_lettersuppercase",
 				"type" : "bool",
-				"value" : true
+				"value" : false
 			},
 			"character_textprefs_nosetselected" : 
 			{
@@ -149,7 +149,7 @@
 				"order" : 224,
 				"text" : "ui_character_textprefs_specialchars",
 				"type" : "bool",
-				"value" : true
+				"value" : false
 			},
 			"character_textprefs_subheading" : 
 			{
@@ -180,7 +180,7 @@
 				"order" : 313,
 				"text" : "ui_movementbehaviour_fps",
 				"type" : "slider",
-				"value" : 24
+				"value" : 60
 			},
 			"movementbehaviour_heading" : 
 			{
@@ -197,7 +197,7 @@
 				"order" : 314,
 				"text" : "ui_movementbehaviour_rain_drop_factor",
 				"type" : "slider",
-				"value" : 75
+				"value" : 30
 			},
 			"schemecolor" : 
 			{

@@ -41,7 +41,7 @@ const MatrixRenderer = function (initOptions = {}) {
             cyrillic: "аАбБвВгГдДеЕёЁжЖзЗиИйЙкКлЛмМнНоОпПрРсСтТуУфФхХцЦчЧшШщЩъЪыЫьЬэЭюЮяЯ",
             lettersLowerCase: "abcdefghijklmnopqrstuvwxyz",
             lettersUpperCase: "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-            numbers: "0123456789",
+            numbers: "01",
             specialCharacters: ",;.:-_+*~#'^°!\"§$%&/()=?{[]}\\@€"
         };
         var retRange = "";
@@ -161,16 +161,16 @@ const MatrixRenderer = function (initOptions = {}) {
         fontColor: "#3f2",
         fontColorHighlight: "#fff",
         fontColorShowoff: "#777",
-        fps: 24,
+        fps: 60,
         screenHeight: 1080,
         screenWidth: 1920,
-        sizePerCharacter: 12,
+        sizePerCharacter: 10,
         textFactor: 0.75,
-        textRangeCyrillic: true,
-        textRangeLettersLowerCase: true,
-        textRangeLettersUpperCase: true,
+        textRangeCyrillic: false,
+        textRangeLettersLowerCase: false,
+        textRangeLettersUpperCase: false,
         textRangeNumbers: true,
-        textRangeSpecialCharacters: true
+        textRangeSpecialCharacters: false
     }, initOptions);
     
     /**
